@@ -1,5 +1,5 @@
 /*
-   Luminance - Tranforms an image into a chars matrix.
+   Luminance: Tranforms an image into a chars matrix.
    Copyright (C) 2022  Francesco Marras
 
    This program is free software: you can redistribute it and/or modify
