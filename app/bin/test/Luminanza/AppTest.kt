@@ -7,7 +7,7 @@ import kotlin.test.assertTrue
 class LuminanceTest {
     @Test
     fun expectTrue() {
-        val classUnderTest = Luminance()
+        val classUnderTest = App()
         assertTrue(classUnderTest.translate(File("in.png"), File("out.txt")))
     }
 }

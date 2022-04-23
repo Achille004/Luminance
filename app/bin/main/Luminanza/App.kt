@@ -6,7 +6,7 @@ import java.io.File
 import java.io.PrintWriter
 import javax.imageio.ImageIO
 
-class Luminance {
+class App {
 
     val chars =
             " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$" // 70 chars
@@ -43,5 +43,5 @@ class Luminance {
 }
 
 fun main() {
-    Luminance().translate(File("in.png"), File("out.txt"))
+    App().translate(File("in.png"), File("out.txt"))
 }
